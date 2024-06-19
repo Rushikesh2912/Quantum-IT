@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Index from './Componants/Section1/Index';
+import Header from './Componants/Navbar/Header';
+import Class from './Componants/Section2/Class';
+import Index2 from './Componants/Section3/Index';
+import Index3 from './Componants/Section4/Index';
+import Index4 from './Componants/Section5/Index';
+import Index5 from './Componants/Section6/Index';
+import Index6 from './Componants/Section7/Index';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Header/>
+      <Index/>
+      <Class/>
+      <Index2/>
+      <Index3/>
+      <Index4/>
+      <Index5/>
+      <Index6/>
     </div>
   );
 }

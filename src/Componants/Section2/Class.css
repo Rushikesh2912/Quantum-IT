@@ -1,0 +1,41 @@
+
+.section-heading {
+  margin-left: 7rem;
+}
+
+.hr-line {
+  border: 5px solid #03aaf2;
+  width: 8%;
+  margin-bottom: 1rem;
+}
+
+.class-background {
+  position: relative;
+}
+
+.bottom-right-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30rem; 
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .section-heading {
+    margin-left: 0; 
+    text-align: center; 
+  }
+}
+
+@media (max-width: 768px) {
+  .bottom-right-image {
+    display: none; 
+  }
+
+  .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%; 
+    margin-bottom: 1.5rem; 
+  }
+}

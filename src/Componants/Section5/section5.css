@@ -1,0 +1,112 @@
+.bg-color {
+  background-image: url('../Images/section5bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.heading-container {
+  color: white;
+  font-family: "Inconsolata", "Consolas", "Courier New", monospace;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 10px;
+}
+
+.quotess {
+  font-size: 18px;
+  font-family: "Lucida Handwriting", cursive;
+  color: #00d9ff;
+}
+
+.sub-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Inconsolata", "Consolas", "Courier New", monospace;
+}
+
+.hrr-line {
+  border: 0;
+  border-top: 3px solid #00d9ff;
+  margin: 20px 0;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inconsolata", "Consolas", "Courier New", monospace;
+  text-align: center;
+}
+
+.price-column {
+  text-align: start;
+  margin: 10px 0;
+}
+
+.fontStyles {
+  font-family: "Inconsolata", "Consolas", "Courier New", monospace;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .heading-container {
+    text-align: left;
+    margin-left: 49rem;
+    margin-top: 5rem;
+  }
+
+  .column-container {
+    flex-direction: row;
+  }
+
+  .column {
+    text-align: start;
+  }
+
+  .round-image {
+    width: 30rem;
+    height: 30rem;
+    margin-left: 10rem;
+  }
+
+  .price-container {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .price-column {
+    flex: 1;
+  }
+}
