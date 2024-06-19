@@ -9,7 +9,7 @@ import Index5 from './Componants/Section6/Index';
 import Index6 from './Componants/Section7/Index';
 function App() {
   return (
-    <div className="">
+    <>
       <Header/>
       <Index/>
       <Class/>
@@ -18,7 +18,7 @@ function App() {
       <Index4/>
       <Index5/>
       <Index6/>
-    </div>
+    </>
   );
 }
 
